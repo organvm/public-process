@@ -1,13 +1,13 @@
 {
   "version": "1.1",
-  "updated": "2026-04-22",
+  "updated": "2026-05-29",
   "generated_by": "essay-pipeline indexer v0.3.0",
-  "total_essays": 64,
-  "total_words": 173481,
+  "total_essays": 65,
+  "total_words": 175691,
   "categories": {
     "meta-system": 24,
     "case-study": 13,
-    "methodology": 11,
+    "methodology": 12,
     "guide": 10,
     "retrospective": 6
   },
@@ -71,6 +71,7 @@
     "organ-v": 2,
     "writing": 2,
     "recursion": 2,
+    "human-ai-collaboration": 2,
     "velocity": 2,
     "lessons-learned": 1,
     "artistic-methodology": 1,
@@ -200,7 +201,6 @@
     "backflow": 1,
     "formalization": 1,
     "multi-organ": 1,
-    "human-ai-collaboration": 1,
     "creative-systems": 1,
     "organvm": 1,
     "generative-systems": 1,
@@ -216,7 +216,12 @@
     "reflection": 1,
     "solo-auteur": 1,
     "creative-enterprise": 1,
-    "one-person-company": 1
+    "one-person-company": 1,
+    "claude-code": 1,
+    "ai-governance": 1,
+    "carrier-wave-thesis": 1,
+    "workflow-design": 1,
+    "prompt-engineering": 1
   },
   "essays": [
     {
@@ -1346,6 +1351,24 @@
       "word_count": 1901,
       "readability_score": 67.4,
       "reading_time": "8 min",
+      "portfolio_relevance": "HIGH"
+    },
+    {
+      "filename": "2026-05-29-governing-the-model.md",
+      "title": "Governing the Model: What the Creator of Claude Code's Workflow Encodes",
+      "date": "2026-05-29",
+      "category": "methodology",
+      "tags": [
+        "claude-code",
+        "human-ai-collaboration",
+        "ai-governance",
+        "carrier-wave-thesis",
+        "workflow-design",
+        "prompt-engineering"
+      ],
+      "word_count": 2210,
+      "readability_score": 61.7,
+      "reading_time": "9 min",
       "portfolio_relevance": "HIGH"
     }
   ]

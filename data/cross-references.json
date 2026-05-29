@@ -1,7 +1,7 @@
 {
   "version": "1.1",
-  "updated": "2026-04-22",
-  "total": 64,
+  "updated": "2026-05-29",
+  "total": 65,
   "entries": {
     "2026-02-10-building-in-public.md": {
       "title": "Building in Public: Radical Transparency as Creative Methodology",
@@ -1048,6 +1048,21 @@
         "methodology",
         "creative-enterprise",
         "one-person-company"
+      ],
+      "category": "methodology"
+    },
+    "2026-05-29-governing-the-model.md": {
+      "title": "Governing the Model: What the Creator of Claude Code's Workflow Encodes",
+      "related_repos": [
+        "organvm-i-theoria/carrier-wave--zeitgeist-thesis"
+      ],
+      "tags": [
+        "claude-code",
+        "human-ai-collaboration",
+        "ai-governance",
+        "carrier-wave-thesis",
+        "workflow-design",
+        "prompt-engineering"
       ],
       "category": "methodology"
     }
