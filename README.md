@@ -14,7 +14,23 @@
 
 > Building in public: the methodology, cross-validation cycle, and lessons learned from coordinating ~79 repositories across 8 GitHub organizations using AI agents as an ensemble of specialized reviewers.
 
-[Introduction](#introduction) | [The Eight-Organ Model](#the-eight-organ-model) | [Methodology](#methodology) | [The Cross-Validation Cycle](#the-cross-validation-cycle) | [Per-Agent Findings](#per-agent-findings) | [Synthesis](#synthesis) | [Simulating Organizational Scale](#simulating-organizational-scale-in-solo-practice) | [Lessons Learned](#lessons-learned) | [Cross-References](#cross-references)
+[Product Orientation](#product-orientation) | [Introduction](#introduction) | [The Eight-Organ Model](#the-eight-organ-model) | [Methodology](#methodology) | [The Cross-Validation Cycle](#the-cross-validation-cycle) | [Per-Agent Findings](#per-agent-findings) | [Synthesis](#synthesis) | [Simulating Organizational Scale](#simulating-organizational-scale-in-solo-practice) | [Lessons Learned](#lessons-learned) | [Cross-References](#cross-references)
+
+---
+
+## Product Orientation
+
+If you are evaluating this as a product system, start here:
+
+| Need | Start Here |
+|------|------------|
+| Understand the current roadmap and milestones | [Roadmap](roadmap.md) |
+| Identify maintainers and review ownership | [CODEOWNERS](.github/CODEOWNERS) and [Contributing](CONTRIBUTING.md) |
+| See corpus health and publication metrics | [Dashboard](dashboard.md) |
+| Understand how essays connect to repositories | [Connections](connections.md) |
+| Understand contribution workflow | [Contributor Runway](docs/contributor-runway.md) |
+
+Maintainer: [@4444J99](https://github.com/4444J99). System governance is coordinated through ORGAN-IV and the meta-organvm registry; this repository owns ORGAN-V public-process outputs: essay Markdown, essay index data, and RSS.
 
 ---
 
