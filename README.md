@@ -14,6 +14,10 @@
 
 > Building in public: the methodology, cross-validation cycle, and lessons learned from coordinating ~79 repositories across 8 GitHub organizations using AI agents as an ensemble of specialized reviewers.
 
+This repository is ORGAN-V's public essay site. The complete dated essay corpus
+lives in `_posts/`, curated long-form essays live in `essays/`, and contributor
+guidance starts in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
 [Introduction](#introduction) | [The Eight-Organ Model](#the-eight-organ-model) | [Methodology](#methodology) | [The Cross-Validation Cycle](#the-cross-validation-cycle) | [Per-Agent Findings](#per-agent-findings) | [Synthesis](#synthesis) | [Simulating Organizational Scale](#simulating-organizational-scale-in-solo-practice) | [Lessons Learned](#lessons-learned) | [Cross-References](#cross-references)
 
 ---
