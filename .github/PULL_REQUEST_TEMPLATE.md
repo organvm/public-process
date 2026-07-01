@@ -14,10 +14,10 @@
 
 ## Testing
 
-<!-- How did you test these changes? -->
+<!-- How did you test these changes? Mark unavailable checks as N/A. -->
 
-- [ ] `../validate.sh` passes from workspace root
 - [ ] `bundle exec jekyll build --strict_front_matter --future` passes
+- [ ] Full workspace validation passes if available (`../validate.sh`)
 - [ ] New tests added (if applicable)
 - [ ] Manual testing performed
 
