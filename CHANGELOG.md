@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Design system reference page documenting `organ-aesthetic.yaml` and visual UI
+  component specimens
 - Platinum Sprint: CI/CD workflow, standardized badge row, ADR documentation
 - Initial CHANGELOG following Keep a Changelog format
 
