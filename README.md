@@ -14,7 +14,7 @@
 
 > Building in public: the methodology, cross-validation cycle, and lessons learned from coordinating ~79 repositories across 8 GitHub organizations using AI agents as an ensemble of specialized reviewers.
 
-[Introduction](#introduction) | [The Eight-Organ Model](#the-eight-organ-model) | [Methodology](#methodology) | [The Cross-Validation Cycle](#the-cross-validation-cycle) | [Per-Agent Findings](#per-agent-findings) | [Synthesis](#synthesis) | [Simulating Organizational Scale](#simulating-organizational-scale-in-solo-practice) | [Lessons Learned](#lessons-learned) | [Cross-References](#cross-references)
+[Introduction](#introduction) | [Technical Architecture](docs/architecture.md) | [The Eight-Organ Model](#the-eight-organ-model) | [Methodology](#methodology) | [The Cross-Validation Cycle](#the-cross-validation-cycle) | [Per-Agent Findings](#per-agent-findings) | [Synthesis](#synthesis) | [Simulating Organizational Scale](#simulating-organizational-scale-in-solo-practice) | [Lessons Learned](#lessons-learned) | [Cross-References](#cross-references)
 
 ---
 
@@ -27,6 +27,11 @@ The conventional narrative about AI-assisted development focuses on code generat
 The result is not just a set of repositories. It is evidence that **AI agents can serve as an organizational simulation** — providing the diversity of perspective, constructive disagreement, and systematic review that would normally require a team of 4-6 specialists.
 
 This essay is itself an ORGAN-V artifact: a public-process document that makes the methodology visible, inspectable, and reproducible.
+
+For the engineering topology, build flow, and integration diagrams, start with
+[Technical Architecture](docs/architecture.md). It is the shortest path for a
+backend engineer trying to understand how this repository fits into the
+eight-organ system.
 
 ---
 
@@ -316,6 +321,7 @@ The system is live. The process is public. The methodology is documented. What c
 
 ### Operational Documents
 
+- [Technical Architecture](docs/architecture.md)
 - [Quality Policy](docs/quality-policy.md)
 - [Contributor Runway](docs/contributor-runway.md)
 - [Distribution Instrumentation Standard](docs/distribution-instrumentation.md)
