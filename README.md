@@ -14,7 +14,16 @@
 
 > Building in public: the methodology, cross-validation cycle, and lessons learned from coordinating ~79 repositories across 8 GitHub organizations using AI agents as an ensemble of specialized reviewers.
 
-[Introduction](#introduction) | [The Eight-Organ Model](#the-eight-organ-model) | [Methodology](#methodology) | [The Cross-Validation Cycle](#the-cross-validation-cycle) | [Per-Agent Findings](#per-agent-findings) | [Synthesis](#synthesis) | [Simulating Organizational Scale](#simulating-organizational-scale-in-solo-practice) | [Lessons Learned](#lessons-learned) | [Cross-References](#cross-references)
+[Community](https://organvm-v-logos.github.io/public-process/community/) | [Ask a Question](https://github.com/organvm/public-process/issues/new?template=question_discussion.md) | [RSS](https://organvm-v-logos.github.io/public-process/feed.xml) | [Introduction](#introduction) | [The Eight-Organ Model](#the-eight-organ-model) | [Methodology](#methodology) | [The Cross-Validation Cycle](#the-cross-validation-cycle) | [Per-Agent Findings](#per-agent-findings) | [Synthesis](#synthesis) | [Simulating Organizational Scale](#simulating-organizational-scale-in-solo-practice) | [Lessons Learned](#lessons-learned) | [Cross-References](#cross-references)
+
+## Community and Discussion
+
+Public Process is not only an essay archive. For questions about the essays,
+methodology, collaboration, or the wider organvm system, open a
+[Question / Discussion issue](https://github.com/organvm/public-process/issues/new?template=question_discussion.md)
+or visit the [Community page](https://organvm-v-logos.github.io/public-process/community/).
+There is no Discord or Slack workspace for this repository right now; public
+conversation happens on GitHub so the thread stays part of the process record.
 
 ---
 
