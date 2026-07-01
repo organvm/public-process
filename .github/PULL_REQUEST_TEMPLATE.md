@@ -16,8 +16,9 @@
 
 <!-- How did you test these changes? -->
 
-- [ ] `../validate.sh` passes from workspace root
-- [ ] `bundle exec jekyll build --strict_front_matter --future` passes
+- [ ] Docs-only change previewed and self-reviewed
+- [ ] `bundle exec jekyll build --strict_front_matter --future` passes for content/layout/config changes
+- [ ] CI data-drift checks considered for `_posts/` or `_logs/` changes
 - [ ] New tests added (if applicable)
 - [ ] Manual testing performed
 
