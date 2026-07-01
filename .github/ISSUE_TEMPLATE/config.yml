@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
-  - name: ORGAN-V Governance Docs
+  - name: Technical Architecture
+    url: https://github.com/organvm-v-logos/public-process/blob/main/docs/architecture.md
+    about: Start here for system diagrams, build flow, and integration contracts
+  - name: ORGAN-V Docs
     url: https://github.com/organvm-v-logos/public-process/tree/main/docs
-    about: Process architecture, dissertation SOP, and publication standards
+    about: ADRs, data contracts, staging reference, and publication standards
