@@ -2,18 +2,42 @@
 
 This guide defines how first-time contributors can land meaningful changes quickly.
 
+## Repository Type
+
+`public-process` is a Jekyll static site. Most first contributions are not application-code changes; they are small Markdown, frontmatter, documentation, link, Liquid template, HTML, CSS, YAML, or JSON-data fixes.
+
+| Area | Language / format | Good first scope |
+|------|-------------------|------------------|
+| `_posts/` | Markdown + YAML frontmatter | Fix metadata, links, excerpts, or formatting |
+| `_logs/` | Markdown + YAML frontmatter | Fix log formatting or internal references |
+| `docs/` | Markdown, YAML | Clarify process docs or governance references |
+| `_layouts/`, `_includes/` | Liquid, HTML | Small template accessibility or structure fixes |
+| `assets/` | CSS | Narrow styling fixes |
+| `data/` | JSON | Generated index updates requested by CI |
+
 ## Fast Start
 
-1. Clone with submodules and run bootstrap:
+1. Clone the repository and install the Jekyll dependencies:
 
 ```bash
-git clone --recurse-submodules <repo-url>
-cd organvm-v-logos
-./tools/bootstrap_dev.sh
+git clone https://github.com/YOUR_USERNAME/public-process.git
+cd public-process
+gem install bundler:4.0.3
+bundle install
 ```
 
-2. Pick a scoped issue labeled `good first issue`.
-3. Run `./validate.sh` before opening a PR.
+2. Pick a scoped issue labeled [`good first issue`](https://github.com/organvm/public-process/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22).
+3. Run the local validation before opening a PR:
+
+```bash
+bundle exec jekyll build --strict_front_matter --future
+```
+
+4. If the issue list has no starter tasks, open the [First Contribution issue template](https://github.com/organvm/public-process/issues/new?template=first_contribution.md) and propose a small Markdown, documentation, frontmatter, link, or Jekyll-template cleanup.
+
+## Starter Issue Labels
+
+Starter issues should use `good first issue` and name the relevant repository surface in the title or body, for example `_posts`, `docs`, `Liquid`, `CSS`, `frontmatter`, or `links`. This makes the required language or file format visible before a contributor opens the issue.
 
 ## First Contribution Scope
 
@@ -38,4 +62,4 @@ A first contribution should:
 
 ## Escalation
 
-If blocked for >7 days without review, open a `documentation` issue in `organvm-v-logos/.github` with link to the PR and blocker details.
+If blocked for >7 days without review, open a `documentation` issue in this repository with a link to the PR and blocker details.
